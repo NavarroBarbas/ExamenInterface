@@ -43,25 +43,34 @@
     <script src="preloader.js"></script>
   </head>
   <body>
-    <div id="container">
-      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-      <!-- Header (encabezado de la página, zona superior) -->
-      <header>
-        <!-- nav (el navegador de toda la web) -->
-        <nav>
-          <a href="" class="link1">link1</a>
-          <a href="" class="link2">link2</a>
-          <a href="" class="link3">link3</a>
-          <a href="" class="link4">link4</a>
-        </nav>
+    <div class="container" id="container">
+      <header class="container__header">
+        <section class="header__texto">
+          <h1>Website's <br>Content Audit</h1>
+          <h3>in 8 Easy Steps</h3>
+          <a href="" class="texto__boton">Learn More</a>
+        </section>
+        <picture class="header__imagen">
+          <img src="img/desktop/imagenHeader.webp" alt="imagen Header">
+        </picture>
       </header>
-      <!-- Main (centro de la página, zona central) -->
-      <main>
-        <!-- section y article (posibilidades dentro de main) -->
-      </main>
-      <!-- Footer (final de la página, zona inferior) -->
-      <footer>
-        <h6>&copy;Copyright</h6>
+
+      <section class="container__section">
+        <p>Hi Tony,</p>
+        <p>Lorem ipsum dolor sit amet consectetur. Mauris consectetur lobortis ultricies pharetra mattis. Molestie elementum sit nunc in lorem a tristique.</p>
+        <p>Lorem ipsum dolor sit amet consectetur. Mauris consectetur lobortis ultricies pharetra mattis. Molestie elementum sit nunc in lorem a tristique.</p>
+        <a class="section__boton" href="">Content Audit in 8 Steps</a>
+      </section>
+
+      <footer class="container__footer">
+        <picture class="footer__imagen">
+          <img src="img/desktop/FotoPersona.webp">
+        </picture>
+        <section class="footer__texto">
+          <h5>Cheers,</h5>
+          <h5>Zlata Verzhbitskaia</h5>
+          <h5>SEO PowerSuite</h5>
+        </section>
       </footer>
     </div>
 
